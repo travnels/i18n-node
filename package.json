@@ -43,7 +43,7 @@
   "scripts": {
     "lint": "eslint .",
     "test": "npm run lint && make test",
-    "test-ci": "npm run lint && istanbul cover ./node_modules/mocha/bin/_mocha"
+    "test-ci": "npm run lint && istanbul cover ./node_modules/mocha/bin/_mocha "
   },
   "license": "MIT"
 }
