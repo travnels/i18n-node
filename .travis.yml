@@ -10,6 +10,7 @@ branches:
   only:
     - master
     - stable
+    - eslint
 before_install:
   - "npm install -g istanbul"
 script:
